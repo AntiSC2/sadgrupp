@@ -7,5 +7,5 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
     template = Template('Hello {{ name }}!')
-    html = template.render(name='Sebastian')
+    html = template.render(name='Säd')
     return html
